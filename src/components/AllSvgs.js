@@ -60,17 +60,27 @@ export const Telegram = (props) => {
     <svg
       aria-hidden="true"
       data-prefix="fab"
-      data-icon="telegram-plane"
-      className="prefix__svg-inline--fa prefix__fa-telegram-plane prefix__fa-w-512"
+      data-icon="telegram"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 512 512"
+      width="25"
+      height="25"
       {...props}
     >
       <path
         fill={props.fill}
-        d="M256 8C119 8 8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256 504 119 393 8 256 8z"
+        d="M0 0l512 256-512 256 75-256 437-128-437 128z"
       />
     </svg>
+  );
+};
+
+const IconSet = (props) => {
+  return (
+    <div>
+      <YouTube fill={props.fill} />
+      <Telegram fill={props.fill} />
+    </div>
   );
 };
 
