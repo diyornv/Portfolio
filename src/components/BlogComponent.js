@@ -26,7 +26,7 @@ const Box = styled(motion.a)`
 `;
 
 const Image = styled.div`
-  background-image: ${(props) => url(${props.img})};
+  background-image: url(${(props) => props.img});
   width: 100%;
   height: 60%;
   background-size: cover;
