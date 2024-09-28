@@ -87,23 +87,20 @@ const MySkillsPage = () => {
         <ParticleComponent theme="light" />
         <Main>
           <Title>
-            <Design width={40} height={40} /> Designer
+            <Design width={40} height={40} /> Backend
           </Title>
+          <Description>I just started organizing the backend</Description>
           <Description>
-            I love to create design which speaks, Keep it clean, minimal and
-            simple.
-          </Description>
-          <Description>
-            <strong>I like to Design</strong>
+            <strong>I am learning node js</strong>
             <ul>
-              <li>Web Design</li>
-              <li>Mobile Apps</li>
+              <li>Node js</li>
+              <li>Nuxt js</li>
             </ul>
           </Description>
           <Description>
             <strong>Tools</strong>
             <ul>
-              <li>Figma</li>
+              <li>Express.js</li>
             </ul>
           </Description>
         </Main>
@@ -118,7 +115,7 @@ const MySkillsPage = () => {
           <Description>
             <strong>Skills</strong>
             <p>
-              Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase
+              Html, Css, Js, React, Redux, Next js, Sass, Bootstrap, Tailwind, Firebase
               etc.
             </p>
           </Description>

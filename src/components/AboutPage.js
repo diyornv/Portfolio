@@ -70,11 +70,12 @@ const AboutPage = () => {
           I'm a front-end developer located in Uzbekistan. I love to create
           simple yet beautiful websites with great user experience.
           <br /> <br />
-          I'm interested in the whole frontend stack Like trying new things and
-          building great projects. I'm an independent freelancer and blogger. I
-          love to write blogs and read books.
-          <br /> <br />I believe everything is an Art when you put your
-          consciousness in it. You can connect with me via social links.
+          I'm interested in the whole frontend stack like trying new things and
+          building great projects. I am a blogger. I like to write blogs and
+          read books.
+          <br /> <br />
+          I'm glad you visited my portfolio website. You can contact me on
+          social networks
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />

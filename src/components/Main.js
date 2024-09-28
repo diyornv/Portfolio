@@ -162,7 +162,7 @@ const Main = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Say hi..
+            Contact
           </motion.h2>
         </Contact>
         <BLOG to="/blog">

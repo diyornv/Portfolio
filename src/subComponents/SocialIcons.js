@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 // import { NavLink } from 'react-router-dom'
 import styled from "styled-components";
-import { Facebook, Github, Twitter, YouTube } from "../components/AllSvgs";
+import { Telegram, Github, Instagram, YouTube } from "../components/AllSvgs";
 import { DarkTheme } from "../components/Themes";
 
 const Icons = styled.div`
@@ -40,7 +40,7 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noopener noreferrer"
-          href={"https://github.com/codebucks27"}
+          href={"https://github.com/diyornv"}
         >
           <Github
             width={25}
@@ -58,9 +58,9 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noopener noreferrer"
-          href={"https://twitter.com/code_bucks"}
+          href={"https://instagram.com/diyor.nv"}
         >
-          <Twitter
+          <Instagram
             width={25}
             height={25}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
@@ -76,9 +76,9 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noopener noreferrer"
-          href={"https://facebook.com/codebucks27"}
+          href={"https://t.me/diyornv"}
         >
-          <Facebook
+          <Telegram
             width={25}
             height={25}
             fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
@@ -94,7 +94,7 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noopener noreferrer"
-          href={"https://youtube.com"}
+          href={"https://youtube.com/@diyornv"}
         >
           <YouTube
             width={25}

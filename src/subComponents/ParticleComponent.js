@@ -2,7 +2,7 @@ import styled from "styled-components";
 import ConfigDark from "../config/particlesjs-config.json";
 import ConfigLight from "../config/particlesjs-config-light.json";
 
-// import Particles from "react-particles-js"
+// import Particles from "react-particles-js";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
@@ -26,7 +26,7 @@ const ParticlesComponent = (props) => {
       <Particles
         id="tsparticles"
         style={{ position: "absolute", top: 0 }}
-        params={props.theme === "light" ? ConfigLight : ConfigDark}
+        options={props.theme === "light" ? ConfigLight : ConfigDark} // params replaced by options
         init={particlesInit}
       />
     </Box>
